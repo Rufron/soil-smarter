@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+🌱 Agritech-Forecast
 
-## Project info
+Crop Yield Prediction & Farm Management Dashboard
 
-**URL**: https://lovable.dev/projects/d2e9eb10-317e-49c1-b37b-660c10369b36
+📌 Project Overview
 
-## How can I edit this code?
+Agritech-Forecast is a modern crop yield prediction and farm management application designed to empower small-scale farmers. The app integrates weather data, soil inputs, and machine learning models to provide actionable insights on crop yield forecasts.
 
-There are several ways of editing your application.
+Beyond predictions, the app also offers a farm expense and profit dashboard, allowing farmers to track their input costs, outputs, and profitability in real time.
 
-**Use Lovable**
+This project was built using Lovable, with additional development done locally in VS Code and GitHub.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d2e9eb10-317e-49c1-b37b-660c10369b36) and start prompting.
+🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+User Authentication & Authorization (via Supabase)
 
-**Use your preferred IDE**
+Crop Yield Prediction powered by weather + soil input data
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Farm Expense & Profit Dashboard
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Input tracking (fertilizer, seeds, water, etc.)
 
-Follow these steps:
+Output & sales logging
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Automatic profit/loss calculation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Real-time Weather Integration (OpenWeather API)
 
-# Step 3: Install the necessary dependencies.
+Modern Responsive UI with shadcn-ui + Tailwind CSS
+
+Deployed via Lovable with support for custom domains
+
+🛠️ Tech Stack
+
+Frontend: React (with Vite + TypeScript)
+
+UI Framework: Tailwind CSS + shadcn-ui
+
+Backend / Database: Supabase (authentication, database, API routes)
+
+APIs: OpenWeather API (weather data), ML Edge Function (yield prediction)
+
+Dev Tools:
+
+Lovable (AI-powered development)
+
+GitHub + Codespaces
+
+Node.js + npm
+
+# 🌾 Crop Yield Prediction App
+
+## 📌 Project Info
+
+- **URL**: [Lovable Project Link](https://lovable.dev/projects/d2e9eb10-317e-49c1-b37b-660c10369b36)  
+- **Contributors**:  
+  - [Brian Kipchumba](https://github.com/Rufron)  
+  - [Faith Jerop](https://github.com/Imanikiplagat)  
+
+
+
+## 🚀 How to Run the Project Locally
+
+Follow these steps to set up the project in your local environment:
+
+### 1. Clone the repository
+
+git clone [<YOUR_GIT_URL>](https://github.com/Imanikiplagat/soil-smarter)
+
+### 2. Change Directory
+cd soil-smarter
+
+### 3. Install dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### 4. Start the development server
 npm run dev
-```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/d2e9eb10-317e-49c1-b37b-660c10369b36) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
