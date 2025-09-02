@@ -1,0 +1,7 @@
+project_id = "grdhuxslaezevsfatfvd"
+
+[functions.predict-yield]
+verify_jwt = true
+
+[functions.send-notifications]
+verify_jwt = true
